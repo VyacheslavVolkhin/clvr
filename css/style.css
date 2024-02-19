@@ -1676,6 +1676,11 @@ body:not(.menu-show) .wrap-header-light .popup-menu-wrap .btn-popup-toggle .butt
     height: 70px;
   }
 }
+@media (max-width: 479px) {
+  .item-tile-price .tile-price-unit {
+    display: block;
+  }
+}
 @media (min-width: 1024px) {
   .item-tile-equipment {
     font-size: 15px;
