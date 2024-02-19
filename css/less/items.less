@@ -129,7 +129,6 @@
 		padding: 0 0 0 9px;
 		margin: 0;
 		flex: 1;
-		.ft;
 	}
 	.tile-ico {
 		width: 92px;height: 92px;
@@ -192,7 +191,7 @@
 		margin: 0 0 25px 0;
 		color: var(--clr-title);
 		display: block;
-		.ft;
+		
 	}
 	.tile-title {
 		position: relative;
@@ -555,7 +554,7 @@
 	border-radius: 50%;
 	width: 40px;height: 40px;
 	pointer-events: none;
-	filter: blur(12.899999618530273px);
+	filter: blur(6px);
 }
 @media (max-width: 1023px) {
 	.item-tile-total {
@@ -655,8 +654,18 @@
 			}
 		}
 		.tile-title {
-			font-size: 21px;
-			line-height: 1.4;
+			font-size: 22px;
+			line-height: (31/22);
+		}
+		.tile-ico {
+			width: auto;
+			flex-shrink: 0;
+			img {
+				position: static;
+				height: 100%;
+				width: auto;
+				max-width: inherit;
+			}
 		}
 	}
 	.item-tile-price {

@@ -10,6 +10,7 @@ document.querySelectorAll('.js-anchor-button').forEach(anchor => {
 });
 
 
+
 //js tabs
 const tabsNav = document.querySelectorAll('.js-tabs-nav')
 const tabsBlocks = document.querySelectorAll('.js-tab-block')
